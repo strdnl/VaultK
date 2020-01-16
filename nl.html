@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<title>v a u l t K</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="test.ico" sizes="13x16">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Courier+Prime&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6,button {font-family: 'Courier Prime', monospace;}body, html {height: 100%}
+p {line-height: 2}
+.bgimg{
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}.bgimg {background-image: url("test.jpg")}
+</style>
+
+<body>
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+
+
+ <span class="w3-button w3-wide w3-hover-opacity" onclick="w3_open()">menu</span>
+
+  <div class="w3-display-middle w3-text-black w3-center " style="white-space:nowrap;">
+<span class="w3-center w3-padding-large w3-black w3-large w3-wide">
+   v a u l t  K
+
+
+</span>
+   
+  </div>
+
+
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-white w3-animate-left" style="z-index:3;width:300px;display:none;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-right w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    
+    
+    <p class="w3-text-black"></p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_open2(xx)" class="w3-bar-item w3-button w3-padding w3-text-red"><i class="fa fa-key fa-fw w3-margin-right"></i>\\vault_k1</a> 
+    <a href="#" onclick="w3_open2(xxx)" class="w3-bar-item w3-button w3-padding"><i class="fa fa-info-circle fa-fw w3-margin-right"></i>rules &*</a> 
+    <a href="#" onclick="w3_open2(xxx2)" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>contact</a>
+  </div>
+  <div class="w3-panel w3-large">
+        <i class="fa fa-soundcloud w3-hover-opacity"></i>
+    <i class="fa fa-headphones w3-hover-opacity"></i>
+        <i class="fa fa-bandcamp w3-hover-opacity"></i>
+<i class="fa fa-instagram w3-hover-opacity"></i>
+<i class="fa fa-twitter w3-hover-opacity"></i>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Content -->
+<nav class="w3-bar w3-white w3-animate-right" style="display:none" id="cdnt"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close2()" class="w3-right w3-padding w3-hover-grey w3-xlarge" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a> 
+<p class="w3-text-black" id="xxxmxxx" style="display:none"><b>rules</b><br><br>
+
+</p>
+
+<div class="w3-content w3-wide" id="xxx" style="display:none">
+    <h2>r u l e s / f34</h2>
+
+ <p class="w3-large">valid from 01 Jan 2020</p>
+    <br>
+    <div class="w3-row">
+      <div class="w3-half">
+        <h4>r_d rules</h4>
+        <p>function_l woofer use</p>
+        <p>mnml ch_rds</p>
+<p>no me1ody</p>
+<p>heterodox</p>
+<p>n_t prone to cla5sification</p>
+<p>shifty unexxpected swung gr_ve</p>
+      </div>
+      <div class="w3-half">
+        <h4>p_nk rules</h4>
+        <p>sn_p / humm / h_ss / cr_ckle / p_p</p>
+        <p>cold floors & warm fires*</p>
+<p>_eliptx cry_o / algebra</p>
+<p>lwnmwr fwd pwrd</p>
+<p>unconv... r_ust z and ice x</p>
+<p>11pm - 8am (all time zones)</p>
+      </div>
+    </div>
+  </div>
+
+<div class="w3-content w3-wide" id="xxx2" style="display:none">
+<h4>a@vaul.tk</h4><br><p>VAULTK/2020.002 \\\\\\\\ (open in kind) <br>submissions must follow rules </p>
+ </div>
+
+<div class="w3-content w3-wide" id="xx" style="display:none">
+<h2>// releases</h2>
+<p>001: dsf/eff </p>
+<img src="logo.jpg" width="25%" height="25%">
+<i class="fa fa-play-circle w3-hover-opacity" onclick="tunes()"></i>
+<i class="fa fa-download w3-hover-opacity"></i>
+<p>002: 1df/3vvf </p>
+<i class="fa fa-play-circle w3-hover-opacity"></i>
+<i class="fa fa-download w3-hover-opacity"></i>
+ </div>
+
+ </div>
+
+   </div></nav>
+
+</header>
+
+
+<script>
+var cdata;
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+function w3_open2(data) {
+ w3_close();
+  cdnt.style.display = "block";
+   data.style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+cdata=data;
+}
+ 
+function w3_close2() {
+cdata.style.display = "none";
+  cdnt.style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+function tunes() {
+var audio = new Audio('elb.wav');
+audio.play();}
+
+</script>
+
+</body>
+</html>
